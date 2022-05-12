@@ -32,6 +32,7 @@ public class NumberController {
                 }
                 int Number = (int) Math.pow(j, 10) * NumberService.RandomNumber();
                 finalNumber += Number;
+                j--;
             }
             Numbers_Arrays.add(finalNumber);
         }
