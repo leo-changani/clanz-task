@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @ComponentScan("com")
-@PropertySource(value = {"classpath:config.properties"}, encoding = "UTF-8")
+@PropertySource(value = { "classpath:config.properties" }, encoding = "UTF-8")
 public class AppConfig {
 
 }
